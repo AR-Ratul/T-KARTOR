@@ -21,11 +21,12 @@ header{
 
 header .div{}
 
-body{
-    width: 1100px;
-    margin:auto;
-}
 
+
+section, header{
+    width: 1100px;
+    margin: 0 auto;
+}
 .box-cotent{
      margin-top: 130px;
      width: 1100px;
@@ -187,7 +188,7 @@ input[type="text"]
     font-weight: 400;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.42); */
     padding: 19px 0 0;
-    width: 600px;
+    /*width: 600px;*/
     transition: .25s cubic-bezier(.4,0,.2,1);
     margin-left: 49px;
     /* float: left; */
@@ -227,6 +228,12 @@ section.input{
 .map img{
     height: 375px;
 }
-.email{}
-.phone{}
-.subject{}
+input.input-subject {
+    width: 100%;
+}
+input.input-email {
+    width: 250px;
+}
+input.input-phone {
+    width: 248px;
+}
